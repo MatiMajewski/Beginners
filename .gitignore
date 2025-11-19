@@ -1,0 +1,25 @@
+node_modules/
+
+# Build artefacts
+build/
+dist/
+
+# Editor / IDE settings
+.vscode/
+
+# Archives
+*.zip
+
+# Data exports (omit large raw data from repo)
+*.xlsx
+*.csv
+
+# Local JDK (exclude bundled JDK binaries)
+oracleJdk-25/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Misc
+site-dist.zip
