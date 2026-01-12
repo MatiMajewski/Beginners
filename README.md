@@ -1,4 +1,4 @@
-# 🏠 Analiza Rynku Nieruchomości w Polsce (2015-2024)
+# Analiza Rynku Nieruchomości w Polsce (2015-2024)
 
 **Projekt na zaliczenie:** Analiza Danych w R i Python (ADRPY2025)  
 **Semestr:** 2025/26  
@@ -6,19 +6,19 @@
 
 ---
 
-## 📊 Przegląd Projektu
+## Przegląd Projektu
 
 Projekt analizuje ceny nieruchomości na polskim rynku w okresie 2015-2024, badając różnice geograficzne, trendy czasowe i wpływ segmentacji rynku (pierwotny/wtórny) na dynamikę cen.
 
 ### Główne Wyniki:
-- ✅ **ANOVA Test (F=10.97, p<0.05):** Ceny istotnie różnią się między województwami
-- ✅ **Korelacja Pearsona (r=0.43, p<0.05):** Wyraźny trend wzrostu cen w czasie (+~14,421 zł/rok)
-- ✅ **Chi-kwadrat:** Segment rynku ma istotny wpływ na rozkład geograficzny
-- ✅ **Analiza 98 powiatów** z wystarczającą ilością danych (≥3 lata obserwacji)
+- **ANOVA Test (F=10.97, p<0.05):** Ceny istotnie różnią się między województwami
+- **Korelacja Pearsona (r=0.43, p<0.05):** Wyraźny trend wzrostu cen w czasie (+~14,421 zł/rok)
+- **Chi-kwadrat:** Segment rynku ma istotny wpływ na rozkład geograficzny
+- **Analiza 98 powiatów** z wystarczającą ilością danych (≥3 lata obserwacji)
 
 ---
 
-## 📁 Struktura Projektu
+## Struktura Projektu
 
 ```
 Beginners/
@@ -30,7 +30,7 @@ Beginners/
 
 ---
 
-## 🔧 Technologia
+## Technologia
 
 | Komponent | Narzędzie |
 |-----------|-----------|
@@ -43,7 +43,7 @@ Beginners/
 
 ---
 
-## 📋 Zawartość Notebooka
+## Zawartość Notebooka
 
 ### Sekcja 1: Przygotowanie Danych (Komórki 1-6)
 - Wczytanie danych z CSV
