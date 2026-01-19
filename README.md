@@ -16,7 +16,7 @@ Projekt analizuje ceny nieruchomości na polskim rynku w okresie 2010-2023, bada
 | Osoba | Zadanie |
 |-------|---------|
 | **Dawid** | Wizualizacje, wykresy |
-| **Gracjan** | Statystyki opisowe, CAGR |
+| **Gracjan** | Statystyki opisowe, wskaźniki |
 | **Mateusz** | Przetwarzanie danych, testy statystyczne |
 
 
