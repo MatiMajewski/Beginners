@@ -98,7 +98,7 @@ Beginners/
 
 ---
 
-## 🚀 Jak Uruchomić
+## Jak Uruchomić
 
 ### Wymagania
 ```bash
@@ -125,7 +125,7 @@ pip install pandas numpy matplotlib scipy openpyxl
 
 ---
 
-## 📈 Kluczowe Wyniki
+## Kluczowe Wyniki
 
 ### Ranking Województw (Średnia Cena zł)
 | Lp. | Województwo | Średnia | Odch. Std | N |
@@ -146,7 +146,7 @@ pip install pandas numpy matplotlib scipy openpyxl
 
 ---
 
-## 👥 Podział Zadań
+## Podział Zadań
 
 | Osoba | Zadanie |
 |-------|---------|
@@ -156,17 +156,17 @@ pip install pandas numpy matplotlib scipy openpyxl
 
 ---
 
-## 📚 Metodologia
+## Metodologia
 
 ### Filtrowanie Danych
 Zastosowano **kryterium jakości**: każdy powiat musi mieć co najmniej **3 punkty pomiarowe** (różne lata), aby umożliwić wiarygodną analizę trendów.
 
 ### Testy Statystyczne (ADRPY2025)
-- ✅ **ANOVA** - Test porównujący średnie między grupami
-- ✅ **Chi-kwadrat** - Test niezależności zmiennych kategorycznych
-- ✅ **Korelacja Pearsona** - Analiza związków liniowych
-- ✅ **Regresja liniowa** - Modelowanie trendu czasowego
-- ✅ **Przedziały ufności** - Estymacja parametrów populacji
+- **ANOVA** - Test porównujący średnie między grupami
+- **Chi-kwadrat** - Test niezależności zmiennych kategorycznych
+- **Korelacja Pearsona** - Analiza związków liniowych
+- **Regresja liniowa** - Modelowanie trendu czasowego
+- **Przedziały ufności** - Estymacja parametrów populacji
 
 ### Miary Trendu
 - **CAGR (Compound Annual Growth Rate):** Średnia roczna stopa wzrostu
@@ -174,7 +174,7 @@ Zastosowano **kryterium jakości**: każdy powiat musi mieć co najmniej **3 pun
 
 ---
 
-## 📊 Wizualizacje
+## Wizualizacje
 
 Projekt zawiera **100+ wykresów** w tym:
 - 16 wykresów dla województw (trendy czasowe)
@@ -186,7 +186,7 @@ Wszystkie wykresy spełniają standardy wizualizacji danych (clauswilke.com/data
 
 ---
 
-## 💾 Git Historia
+## Git Historia
 
 ```
 commit 1c3317f - Dodaj testy statystyczne: ANOVA, chi-kwadrat, korelacja, regresja + strukturę raportu
@@ -195,7 +195,7 @@ commit 1c386a9 - Filtruj powiaty: pozostaw tylko 98 z min. 3 lat danych, usuń s
 
 ---
 
-## 📝 Notatki
+## Notatki
 
 ### Ograniczenia Studium
 1. Brak zmiennych uzupełniających (powierzchnia, standard)
@@ -204,25 +204,25 @@ commit 1c386a9 - Filtruj powiaty: pozostaw tylko 98 z min. 3 lat danych, usuń s
 4. Brak informacji o cenach ofertowych (tylko zawarte)
 
 ### Potencjalne Rozszerzenia
-- [ ] Machine Learning do przewidywania cen
-- [ ] Segmentowana analiza dla każdego województwa
-- [ ] Analiza danych geoprzestrzennych (mapy)
-- [ ] Test Kruskal-Wallisa (nieparametryczny)
-- [ ] Modele ARIMA do prognozy
+-  Machine Learning do przewidywania cen
+-  Segmentowana analiza dla każdego województwa
+-  Analiza danych geoprzestrzennych (mapy)
+-  Test Kruskal-Wallisa (nieparametryczny)
+-  Modele ARIMA do prognozy
 
 ---
 
-## 📄 Licencja
+## Licencja
 
 Projekt na potrzeby kursu akademickiego.
 
 ---
 
-## ✉️ Kontakt
+##  Kontakt
 
 GitHub: [MatiMajewski/Beginners](https://github.com/MatiMajewski/Beginners)
 
 ---
 
 **Data ostatniej aktualizacji:** 6 stycznia 2026  
-**Status:** ✅ Projekt zakończony (ADRPY2025 - 95% wymagań spełnionych)
+**Status:**  Projekt zakończony (ADRPY2025 - 95% wymagań spełnionych)
