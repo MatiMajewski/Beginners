@@ -1,4 +1,4 @@
-# Analiza Rynku Nieruchomości w Polsce (2015-2024)
+# Analiza rynku nieruchomości w polsce (2015-2024)
 
 **Projekt na zaliczenie:** Analiza Danych w R i Python (ADRPY2025)  
 **Semestr:** 2025/26  
@@ -6,11 +6,11 @@
 
 ---
 
-## Przegląd Projektu
+## Przegląd projektu
 
 Projekt analizuje ceny nieruchomości na polskim rynku w okresie 2015-2024, badając różnice geograficzne, trendy czasowe i wpływ segmentacji rynku (pierwotny/wtórny) na dynamikę cen.
 
-### Główne Wyniki:
+### Główne wyniki:
 - **ANOVA Test (F=10.97, p<0.05):** Ceny istotnie różnią się między województwami
 - **Korelacja Pearsona (r=0.43, p<0.05):** Wyraźny trend wzrostu cen w czasie (+~14,421 zł/rok)
 - **Chi-kwadrat:** Segment rynku ma istotny wpływ na rozkład geograficzny
@@ -18,7 +18,7 @@ Projekt analizuje ceny nieruchomości na polskim rynku w okresie 2015-2024, bada
 
 ---
 
-## Struktura Projektu
+## Struktura projektu
 
 ```
 Beginners/
@@ -43,27 +43,27 @@ Beginners/
 
 ---
 
-## Zawartość Notebooka
+## Zawartość notebooka
 
-### Sekcja 1: Przygotowanie Danych (Komórki 1-6)
+### Sekcja 1: przygotowanie danych (Komórki 1-6)
 - Wczytanie danych z CSV
 - Czyszczenie i normalizacja
 - Formatowanie kodów powiatów (XX-Y00)
 - Usunięcie wartości zerowych
 
-### Sekcja 2: Analiza Wojewódzka (Komórki 7-25)
+### Sekcja 2: analiza wojewódzka (Komórki 7-25)
 - CAGR (Compound Annual Growth Rate) dla 16 województw
 - Siatka wykresów zmian procentowych
 - Trendy czasowe dla każdego województwa
 - Ranking województw po średnich cenach
 
-### Sekcja 3: Analiza Powiatów (Komórki 26-34)
+### Sekcja 3: analiza powiatów (Komórki 26-34)
 - Ocena jakości danych (98/102 powiatów spełnia kryteria)
 - CAGR dla top 16 powiatów
 - Siatka wykresów dla powiatów z wysokim wzrostem
 - Indywidualne wykresy 98 powiatów (z danymi ≥3 lata)
 
-### Sekcja 4: Testy Statystyczne (Komórki 35-43)
+### Sekcja 4: testy statystyczne (Komórki 35-43)
 
 **1. Test ANOVA** - Różnice cen między województwami
 - F-statystyka: 10.9708
@@ -98,7 +98,7 @@ Beginners/
 
 ---
 
-##  Jak Uruchomić
+##  Jak uruchomić
 
 ### Wymagania
 ```bash
@@ -112,7 +112,7 @@ pip install pandas numpy matplotlib scipy openpyxl
    cd Beginners
    ```
 
-2. **Otwórz Jupyter Notebook:**
+2. **Otwórz jupyter notebook:**
    ```bash
    jupyter notebook Wczytywanie\ danych.ipynb
    ```
@@ -125,7 +125,7 @@ pip install pandas numpy matplotlib scipy openpyxl
 
 ---
 
-##  Kluczowe Wyniki
+##  Kluczowe wyniki
 
 ### Ranking Województw (Średnia Cena zł)
 | Lp. | Województwo | Średnia | Odch. Std | N |
@@ -138,7 +138,7 @@ pip install pandas numpy matplotlib scipy openpyxl
 | ... | ... | ... | ... | ... |
 | 16 | Lubuskie | 220,378 | 63,638 | 15 |
 
-### Jakość Danych (Powiaty)
+### Jakość danych (powiaty)
 - **Powiatów całkowicie:** 102
 - **Powiatów w analizie (≥3 lata):** 98
 - **Powiatów wyeliminowanych:** 4
@@ -146,7 +146,7 @@ pip install pandas numpy matplotlib scipy openpyxl
 
 ---
 
-##  Podział Zadań
+##  Podział zadań
 
 | Osoba | Zadanie |
 |-------|---------|
@@ -158,17 +158,17 @@ pip install pandas numpy matplotlib scipy openpyxl
 
 ##  Metodologia
 
-### Filtrowanie Danych
+### Filtrowanie danych
 Zastosowano **kryterium jakości**: każdy powiat musi mieć co najmniej **3 punkty pomiarowe** (różne lata), aby umożliwić wiarygodną analizę trendów.
 
-### Testy Statystyczne (ADRPY2025)
+### Testy statystyczne (ADRPY2025)
 -  **ANOVA** - Test porównujący średnie między grupami
 -  **Chi-kwadrat** - Test niezależności zmiennych kategorycznych
 -  **Korelacja Pearsona** - Analiza związków liniowych
 -  **Regresja liniowa** - Modelowanie trendu czasowego
 -  **Przedziały ufności** - Estymacja parametrów populacji
 
-### Miary Trendu
+### Miary trendu
 - **CAGR (Compound Annual Growth Rate):** Średnia roczna stopa wzrostu
 - **Zmiana procentowa:** Względem pierwszego roku obserwacji
 
@@ -186,7 +186,7 @@ Wszystkie wykresy spełniają standardy wizualizacji danych (clauswilke.com/data
 
 ---
 
-##  Git Historia
+##  Git historia
 
 ```
 commit 1c3317f - Dodaj testy statystyczne: ANOVA, chi-kwadrat, korelacja, regresja + strukturę raportu
@@ -197,13 +197,13 @@ commit 1c386a9 - Filtruj powiaty: pozostaw tylko 98 z min. 3 lat danych, usuń s
 
 ##  Notatki
 
-### Ograniczenia Studium
+### Ograniczenia studium
 1. Brak zmiennych uzupełniających (powierzchnia, standard)
 2. Dane transakcyjne mogą być obciążone survivalem
 3. Okres analiz kończy się w 2024 r.
 4. Brak informacji o cenach ofertowych (tylko zawarte)
 
-### Potencjalne Rozszerzenia
+### Potencjalne rozszerzenia
 - [ ] Machine Learning do przewidywania cen
 - [ ] Segmentowana analiza dla każdego województwa
 - [ ] Analiza danych geoprzestrzennych (mapy)
