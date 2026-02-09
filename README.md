@@ -88,7 +88,7 @@ Beginners/
 - R² = 0.1836 (18% wariancji wyjaśnione rokiem)
 - Wizualizacja trendu
 
-### Sekcja 5: Raport Analityczny (Komórki 36-38)
+### Sekcja 5: raport analityczny (komórki 36-38)
 - Streszczenie wykonawcze
 - Wprowadzenie (cel, dane, metodologia)
 - Wyniki eksploracyjnej analizy danych
