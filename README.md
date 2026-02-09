@@ -1,6 +1,6 @@
 # Analiza rynku nieruchomości w polsce (2015-2024)
 
-**Projekt na zaliczenie:** Analiza Danych w R i Python (ADRPY2025)  
+**Projekt na zaliczenie:** Analiza danych w r i python (ADRPY2025)  
 **Semestr:** 2025/26  
 **Temat:** Zróżnicowanie cen nieruchomości między województwami i powiatami
 
