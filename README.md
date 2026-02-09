@@ -45,25 +45,25 @@ Beginners/
 
 ## Zawartość notebooka
 
-### Sekcja 1: przygotowanie danych (Komórki 1-6)
+### Sekcja 1: przygotowanie danych (komórki 1-6)
 - Wczytanie danych z CSV
 - Czyszczenie i normalizacja
 - Formatowanie kodów powiatów (XX-Y00)
 - Usunięcie wartości zerowych
 
-### Sekcja 2: analiza wojewódzka (Komórki 7-25)
+### Sekcja 2: analiza wojewódzka (komórki 7-25)
 - CAGR (Compound Annual Growth Rate) dla 16 województw
 - Siatka wykresów zmian procentowych
 - Trendy czasowe dla każdego województwa
 - Ranking województw po średnich cenach
 
-### Sekcja 3: analiza powiatów (Komórki 26-34)
+### Sekcja 3: analiza powiatów (komórki 26-34)
 - Ocena jakości danych (98/102 powiatów spełnia kryteria)
 - CAGR dla top 16 powiatów
 - Siatka wykresów dla powiatów z wysokim wzrostem
 - Indywidualne wykresy 98 powiatów (z danymi ≥3 lata)
 
-### Sekcja 4: testy statystyczne (Komórki 35-43)
+### Sekcja 4: testy statystyczne (komórki 35-43)
 
 **1. Test ANOVA** - Różnice cen między województwami
 - F-statystyka: 10.9708
